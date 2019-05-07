@@ -11,12 +11,12 @@ export default ({ data }) => (
 )
 
 export const query = graphql`
-  {
-    wordpressPage(title: { eq: "Just testing gatsby-transformer-html" }) {
-      title
-      content {
-        html
-      }
-    }
-  }
+  # {
+  #   wordpressPage(title: { eq: "Just testing gatsby-transformer-html" }) {
+  #     title
+  #     content {
+  #       html
+  #     }
+  #   }
+  # }
 `
